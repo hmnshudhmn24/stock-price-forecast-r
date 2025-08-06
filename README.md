@@ -1,9 +1,9 @@
-# 📈 stock-price-forecast-r
+# 📈 Stock Price Analysis & Forecasting
 
 Analyze historical stock prices and forecast future trends using R.  
 This project uses `quantmod` to fetch stock data, `forecast` to build time series models (ARIMA), and `ggplot2` to visualize the trends and predictions.
 
----
+
 
 ## 🔧 Features
 
@@ -14,7 +14,7 @@ This project uses `quantmod` to fetch stock data, `forecast` to build time serie
 - 30-day forecast of adjusted closing prices
 - CSV export of forecasted values
 
----
+
 
 ## 🧠 Skills Used
 
@@ -24,7 +24,7 @@ This project uses `quantmod` to fetch stock data, `forecast` to build time serie
 - Working with `quantmod` and Yahoo Finance APIs
 - CSV data export
 
----
+
 
 ## 📦 Requirements
 
@@ -34,7 +34,7 @@ Install the required R packages:
 install.packages(c("quantmod", "forecast", "ggplot2", "tseries"))
 ```
 
----
+
 
 ## 🚀 How to Run
 
@@ -59,7 +59,7 @@ install.packages(c("quantmod", "forecast", "ggplot2", "tseries"))
    forecast_output.csv
    ```
 
----
+
 
 ## 📊 Example Output
 
@@ -72,7 +72,7 @@ install.packages(c("quantmod", "forecast", "ggplot2", "tseries"))
 - 📈 **Forecast Plot**  
   Predicted prices for the next 30 trading days with confidence intervals.
 
----
+
 
 ## ✏️ Customize
 
@@ -84,7 +84,7 @@ start_date <- as.Date("2018-01-01")
 end_date <- Sys.Date()
 ```
 
----
+
 
 ## 📁 File Structure
 
@@ -96,7 +96,7 @@ stock-price-forecast-r/
 └── README.md                # This file
 ```
 
----
+
 
 ## 📚 References
 
@@ -104,15 +104,3 @@ stock-price-forecast-r/
 - [forecast package](https://cran.r-project.org/web/packages/forecast/index.html)
 - [Yahoo Finance API](https://finance.yahoo.com)
 
----
-
-## 🧠 Author
-
-**Himanshu**  
-Feel free to use or modify this for your data science projects or Kaggle submissions.
-
----
-
-## 📜 License
-
-MIT License - free for personal or commercial use.
